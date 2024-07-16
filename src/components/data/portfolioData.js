@@ -18,20 +18,20 @@
 export const portafolioData = [
 	{
 		imgSrc: 'public/img/YzyDigital.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		title: 'YzyDigital',
+		skills: ['React', 'CSS'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			"Initier le développement du site de l'entreprise afin d'exposer notre méthodologie de travail au sein de l'équipe de développeurs et d'établir une organisation structurée, en étroite collaboration avec le lead dev et le gestionnaire de projet.",
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
 	},
 	{
 		imgSrc: 'public/img/CareneAssurances.png',
-		title: 'E-commerce',
+		title: 'Carene Asssurances',
 		skills: ['JavaScript', 'Bootstrap'],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			"Création du site internet de Carene assurances qui est une nouvelle branche d'assurance d'Allianz.",
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-up',
@@ -39,40 +39,40 @@ export const portafolioData = [
 	},
 	{
 		imgSrc: 'public/img/RepairsAidants.png',
-		title: 'Coffe Store',
+		title: 'RePairs Aidants',
 		skills: ['React', 'CSS'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			"RePairs Aidants est une action de sensibilisation-formation à destination de ceux qui apportent de l'aide à un proche en situation de handicap.",
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-left',
 	},
 	{
 		imgSrc: 'public/img/DifuzLearning.png',
-		title: 'Coffe Store',
+		title: 'Difuz Learning',
 		skills: ['React', 'CSS'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Difuz Learning conçoit, élabore et diffuse des connaissances à travers des apports de formations transposables dans votre quotidien professionnel. Création de ce site en binôme.',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-left',
 	},
 	{
 		imgSrc: 'public/img/Viatlease.png',
-		title: 'Coffe Store',
+		title: 'Viatlease',
 		skills: ['React', 'CSS'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Société spécialisée dans le financement de biens d’équipements et matériels professionnels auprès de TPE, PME et plus grandes entreprises.',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-left',
 	},
 	{
 		imgSrc: 'public/img/Fueve.png',
-		title: 'Restaurant',
+		title: 'Fueve',
 		skills: ['React', 'StyledComponents'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			"Modification d'un site shopify pour ressembler à 100% à la maquette du client (ajout animation, modification du code source).",
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-right',
