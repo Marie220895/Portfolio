@@ -22,17 +22,17 @@ export const portafolioData = [
 		skills: ['React', 'CSS'],
 		descripcion:
 			"Initier le développement du site de l'entreprise afin d'exposer notre méthodologie de travail au sein de l'équipe de développeurs et d'établir une organisation structurée, en étroite collaboration avec le lead dev et le gestionnaire de projet.",
-		demoURL: '',
+		demoURL: 'https://yzydigital.com/fr',
 		repoURL: '',
 		anim: 'fade-right',
 	},
 	{
 		imgSrc: 'public/img/CareneAssurances.png',
 		title: 'Carene Asssurances',
-		skills: ['JavaScript', 'Bootstrap'],
+		skills: ['JavaScript', 'CSS'],
 		descripcion:
 			"Création du site internet de Carene assurances qui est une nouvelle branche d'assurance d'Allianz.",
-		demoURL: '',
+		demoURL: 'https://www.carene.fr/',
 		repoURL: '',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
@@ -43,7 +43,7 @@ export const portafolioData = [
 		skills: ['React', 'CSS'],
 		descripcion:
 			"RePairs Aidants est une action de sensibilisation-formation à destination de ceux qui apportent de l'aide à un proche en situation de handicap.",
-		demoURL: '',
+		demoURL: 'https://www.repairsaidants.com/',
 		repoURL: '',
 		anim: 'fade-left',
 	},
@@ -53,27 +53,27 @@ export const portafolioData = [
 		skills: ['React', 'CSS'],
 		descripcion:
 			'Difuz Learning conçoit, élabore et diffuse des connaissances à travers des apports de formations transposables dans votre quotidien professionnel. Création de ce site en binôme.',
-		demoURL: '',
+		demoURL: 'https://difuzlearning.fr/',
 		repoURL: '',
 		anim: 'fade-left',
 	},
 	{
 		imgSrc: 'public/img/Viatlease.png',
 		title: 'Viatlease',
-		skills: ['React', 'CSS'],
+		skills: ['React', 'CSS', 'Bootstrap'],
 		descripcion:
 			'Société spécialisée dans le financement de biens d’équipements et matériels professionnels auprès de TPE, PME et plus grandes entreprises.',
-		demoURL: '',
+		demoURL: 'https://www.viatelease.fr/',
 		repoURL: '',
 		anim: 'fade-left',
 	},
 	{
 		imgSrc: 'public/img/Fueve.png',
 		title: 'Fueve',
-		skills: ['React', 'StyledComponents'],
+		skills: ['React', 'Astro'],
 		descripcion:
 			"Modification d'un site shopify pour ressembler à 100% à la maquette du client (ajout animation, modification du code source).",
-		demoURL: '',
+		demoURL: 'https://www.fueveswimwear.com/',
 		repoURL: '',
 		anim: 'fade-right',
 	},
@@ -88,6 +88,7 @@ const skillIcons = {
 	StyledComponents: 'skill-icons:styledcomponents',
 	Bootstrap: 'skill-icons:bootstrap',
 	Tailwind: 'skill-icons:tailwindcss-dark',
+	Shopify: 'skill-icons:shopify',
 };
 
 /**
