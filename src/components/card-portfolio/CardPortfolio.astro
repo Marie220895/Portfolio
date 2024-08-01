@@ -5,6 +5,7 @@ const {
 	descripcion,
 	imgSrc,
 	skills,
+	iconClass,
 	repoURL,
 	demoURL,
 	averageBrightness,
@@ -30,9 +31,12 @@ const {
 			<div class="skills">
 				{
 					skills.map((skill) => (
-						<iconify-icon class="iconify" icon={skill} />
+						<iconify-icon class={`iconify ${skill === 'Shopify' ? iconClass : ''}`} icon={skill} />
 					))
 				}
+			
+
+
 			</div>
 			<!--
 			<div class="buttons">

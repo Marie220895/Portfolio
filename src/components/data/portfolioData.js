@@ -15,11 +15,12 @@
  * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
  * @type {PortafolioData[]}
  */
+
 export const portafolioData = [
 	{
 		imgSrc: 'public/img/YzyDigital.png',
 		title: 'YzyDigital',
-		skills: ['React', 'CSS'],
+		skills: ['Gatsby', 'React', 'CSS'],
 		descripcion:
 			"Initier le développement du site de l'entreprise afin d'exposer notre méthodologie de travail au sein de l'équipe de développeurs et d'établir une organisation structurée, en étroite collaboration avec le lead dev et le gestionnaire de projet.",
 		demoURL: 'https://yzydigital.com/fr',
@@ -29,7 +30,7 @@ export const portafolioData = [
 	{
 		imgSrc: 'public/img/CareneAssurances.png',
 		title: 'Carene Asssurances',
-		skills: ['JavaScript', 'CSS'],
+		skills: ['Gatsby', 'React', 'CSS'],
 		descripcion:
 			"Création du site internet de Carene assurances qui est une nouvelle branche d'assurance d'Allianz.",
 		demoURL: 'https://www.carene.fr/',
@@ -40,7 +41,7 @@ export const portafolioData = [
 	{
 		imgSrc: 'public/img/RepairsAidants.png',
 		title: 'RePairs Aidants',
-		skills: ['React', 'CSS'],
+		skills: ['Gatsby', 'React', 'CSS'],
 		descripcion:
 			"RePairs Aidants est une action de sensibilisation-formation à destination de ceux qui apportent de l'aide à un proche en situation de handicap.",
 		demoURL: 'https://www.repairsaidants.com/',
@@ -50,7 +51,7 @@ export const portafolioData = [
 	{
 		imgSrc: 'public/img/DifuzLearning.png',
 		title: 'Difuz Learning',
-		skills: ['React', 'CSS'],
+		skills: ['Gatsby', 'React', 'CSS'],
 		descripcion:
 			'Difuz Learning conçoit, élabore et diffuse des connaissances à travers des apports de formations transposables dans votre quotidien professionnel. Création de ce site en binôme.',
 		demoURL: 'https://difuzlearning.fr/',
@@ -60,7 +61,7 @@ export const portafolioData = [
 	{
 		imgSrc: 'public/img/Viatlease.png',
 		title: 'Viatlease',
-		skills: ['React', 'CSS', 'Bootstrap'],
+		skills: ['Gatsby', 'React', 'CSS', 'JavaScript'],
 		descripcion:
 			'Société spécialisée dans le financement de biens d’équipements et matériels professionnels auprès de TPE, PME et plus grandes entreprises.',
 		demoURL: 'https://www.viatelease.fr/',
@@ -70,7 +71,8 @@ export const portafolioData = [
 	{
 		imgSrc: 'public/img/Fueve.png',
 		title: 'Fueve',
-		skills: ['React', 'Astro'],
+		skills: ['React', 'CSS', 'Shopify'],
+		iconClass: 'icon-shopify',
 		descripcion:
 			"Modification d'un site shopify pour ressembler à 100% à la maquette du client (ajout animation, modification du code source).",
 		demoURL: 'https://www.fueveswimwear.com/',
@@ -85,10 +87,9 @@ const skillIcons = {
 	Astro: 'skill-icons:astro',
 	CSS: 'skill-icons:css',
 	Sass: 'skill-icons:sass',
-	StyledComponents: 'skill-icons:styledcomponents',
-	Bootstrap: 'skill-icons:bootstrap',
-	Tailwind: 'skill-icons:tailwindcss-dark',
-	Shopify: 'skill-icons:shopify',
+	Gatsby: 'skill-icons:gatsby',
+	Shopify: 'mdi:shopify',
+	Mui: 'skill-icons:mui',
 };
 
 /**
