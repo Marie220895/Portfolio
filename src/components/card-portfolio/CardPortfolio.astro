@@ -27,17 +27,39 @@ const {
 		<h2 class="card__title">{title}</h2>
 		<div class="descripcion">
 			<p>{descripcion}</p>
-
-			<div class="skills">
+				
+			<!--	<div class="skills">
 				{
 					skills.map((skill) => (
-						<iconify-icon class={`iconify ${skill === 'Shopify' ? iconClass : ''}`} icon={skill} />
+						<iconify-icon class={` 	
+							<script>
+								function (skill)=> {
+								let elm = document.getElementsByClassName("iconify");
+								 	if (skill === 'Shopify) {
+    							 		elm.className = "icon-shopify";
+  										}
+  								}
+  							` 
+							</script>
+								}  icon={skill} />
+					
 					))
 				}
-			
-
-
+		
 			</div>
+-->
+		<div class="skills">
+				{skills.map((skill) => {
+					const iconClass = skill === 'mdi:shopify' ? 'icon-shopify' : '';
+					return (
+						<iconify-icon 
+							class={`iconify ${iconClass}`}
+							icon={skill} 
+						/>
+					);
+				})}
+			</div>
+			
 			<!--
 			<div class="buttons">
 				<a href={repoURL}>

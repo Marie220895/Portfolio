@@ -101,6 +101,9 @@
 	font-size: 3rem; /* Estamos usando rem para los textos */
 }
 
+.icon-shopify {
+}
+
 .card__portfolio .buttons {
 	padding: 14px;
 	width: 100%;
