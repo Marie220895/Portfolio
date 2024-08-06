@@ -40,7 +40,7 @@ export const portafolioData = [
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: '/Porfolio/img/RepairsAidants.png',
+		imgSrc: '/img/RepairsAidants.png',
 		title: 'RePairs Aidants',
 		skills: ['Gatsby', 'React', 'CSS'],
 		descripcion:
@@ -50,7 +50,7 @@ export const portafolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: '/Porfolio/img/DifuzLearning.png',
+		imgSrc: '/img/DifuzLearning.png',
 		title: 'Difuz Learning',
 		skills: ['Gatsby', 'React', 'CSS'],
 		descripcion:
@@ -60,7 +60,7 @@ export const portafolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: '/Porfolio/img/Viatlease.png',
+		imgSrc: '/img/Viatlease.png',
 		title: 'Viatlease',
 		skills: ['Gatsby', 'React', 'CSS', 'JavaScript'],
 		descripcion:
@@ -70,7 +70,7 @@ export const portafolioData = [
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: '/Porfolio/img/Fueve.png',
+		imgSrc: '/img/Fueve.png',
 		title: 'Fueve',
 		skills: ['React', 'CSS', 'Shopify'],
 		iconClass: 'icon-shopify',
