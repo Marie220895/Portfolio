@@ -5,8 +5,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://Marie220895.github.io/Portfolio',
-	base: '/Portfolio/',
+	site: 'https://Marie220895.github.io',
+	base: '/',
 
 	devToolbar: {
 		enabled: false,

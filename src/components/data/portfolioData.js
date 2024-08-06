@@ -19,7 +19,7 @@ export const baseUrl = import.meta.env.BASE_URL;
 console.log(baseUrl);
 export const portafolioData = [
 	{
-		imgSrc: '/Porfolio/img/YzyDigital.png',
+		imgSrc: '/img/YzyDigital.png',
 		title: 'YzyDigital',
 		skills: ['Gatsby', 'React', 'CSS'],
 		descripcion:
@@ -29,7 +29,7 @@ export const portafolioData = [
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: '/Porfolio/img/CareneAssurances.png',
+		imgSrc: '/img/CareneAssurances.png',
 		title: 'Carene Asssurances',
 		skills: ['Gatsby', 'React', 'CSS'],
 		descripcion:
