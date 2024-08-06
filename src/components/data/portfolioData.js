@@ -15,7 +15,8 @@
  * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
  * @type {PortafolioData[]}
  */
-
+export const baseUrl = import.meta.env.BASE_URL;
+console.log(baseUrl);
 export const portafolioData = [
 	{
 		imgSrc: '/Porfolio/img/YzyDigital.png',

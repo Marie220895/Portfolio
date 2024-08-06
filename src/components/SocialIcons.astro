@@ -1,5 +1,6 @@
 ---
 const {width, height} = Astro.props;
+const baseUrl = import.meta.env.BASE_URL;  
 const socialLinks = [
 	{
 		title: 'LinkedIn',
@@ -10,8 +11,7 @@ const socialLinks = [
 	{
 		title: 'CV',
 		icon: 'tabler:file-cv',
-		href:'/Porfolio/src/docs/DossierCandidatur.pdf', 
-		
+		href: '/Portfolio/src/docs/DossierCandidature.pdf'
 		
 	},
 ];
